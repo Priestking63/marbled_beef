@@ -172,7 +172,7 @@ with open('result.jpg', 'wb') as f:
 ### Marbling Classifier
 - **Файл**: `marbling_model_balanced.pth`
 - **Задача**: Определение мраморности
-- **Классы**: choice, select, standard
+- **Классы**: choice, select, prime
 
 ## Требования к изображениям
 
@@ -188,7 +188,7 @@ with open('result.jpg', 'wb') as f:
 
 - `yolo_detection_optimized.ipynb` — обучение YOLO детектора
 - `dinov2_optuna.ipynb` — обучение классификатора типа стейка
-- `marbling_dinov2_optuna.ipynb` — обучение классификатора мраморности
+- `marbling_classification_balanced.ipynb` — обучение классификатора мраморности
 
 ## Зависимости
 
